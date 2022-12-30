@@ -1,0 +1,80 @@
+.banner{
+    padding-top: 50px;
+    height: 91vh;
+    object-fit: contain;
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+}
+.banner_conents{
+    margin-left:30px;
+    padding-top: 140px;
+    height: 190px;
+}
+.banner_title{
+font-size: 3rem;
+font-weight: 800;
+padding-bottom: 0.3rem;
+margin-bottom: 16px;
+line-height: 1.1;
+}
+.banner_description{
+    width:45rem;
+    line-height: 1.3rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    max-width: 360px;
+    height: 80px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.banner--fadeBottom{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 7.75rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37 , 37 , 37 , 0.61),
+        #111
+        );
+}
+.banner_buttons{
+    display: flex;
+}
+.banner_button{
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    margin-right: 1rem;
+    padding: 0.7rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.5);
+    margin-bottom: 10px;
+
+}
+/* .playIcon{
+position: absolute;
+top: 5px;
+left: 2px;
+margin: 0;
+}
+.detailIcon{
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    margin: 0;
+} */
+.banner_button:hover{
+    color: #111;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
